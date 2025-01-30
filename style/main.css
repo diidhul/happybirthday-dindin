@@ -3,12 +3,18 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Indie Flower", sans-serif;
   margin: 0;
+  background: rgb(234, 216, 190);
 }
 
 .song {
   visibility: hidden;
+}
+
+h1,
+p {
+  color: rgb(74, 71, 67);
 }
 
 .container {
@@ -23,6 +29,7 @@ body {
 
 .container > div {
   left: 0;
+
   position: absolute;
   right: 0;
   top: 20vh;
@@ -53,6 +60,7 @@ body {
 .text-box p {
   margin: 0;
   text-align: left;
+  background: rgb(234, 216, 190);
 }
 
 .text-box span {
@@ -60,11 +68,11 @@ body {
 }
 
 .text-box .fake-btn {
-  background-color: rgb(21, 161, 237);
+  background-color: rgb(74, 71, 67);
   border-radius: 3px;
   bottom: -50px;
   color: #fff;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   position: absolute;
   right: 5px;
 }
@@ -86,14 +94,15 @@ body {
   font-size: 4rem;
 }
 
-.idea-5 span, .idea-6 span, .wish-hbd span {
+.idea-5 span,
+.idea-6 span,
+.wish-hbd span {
   display: inline-block;
 }
 
-.idea-6 span{
+.idea-6 span {
   font-size: 15rem;
 }
-
 
 .six {
   position: relative;
@@ -133,7 +142,8 @@ body {
   left: 30%;
 }
 
-.seven, .eight {
+.seven,
+.eight {
   height: 100vh;
   position: fixed;
   top: 0;
@@ -168,7 +178,7 @@ body {
 }
 
 .eight svg:nth-child(4) {
-  fill: #347a9d;
+  fill: #c66053;
   left: 57vw;
   top: 43vh;
 }
@@ -198,7 +208,7 @@ body {
 }
 
 .eight svg:nth-child(9) {
-  fill: #9a90da;
+  fill: rgb(74, 71, 67);
   left: 87vw;
   top: 94vh;
 }
